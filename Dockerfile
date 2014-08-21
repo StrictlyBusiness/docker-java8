@@ -1,10 +1,9 @@
-FROM ubuntu:trusty
+FROM debian:wheezy
 MAINTAINER Sean Lynch <techniq35@gmail.com>
 
-# Add Java repository
-RUN apt-get update
-RUN apt-get install -y software-properties-common
-RUN add-apt-repository -y ppa:webupd8team/java
+# Add Oracle Java repository
+RUN echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" > /etc/apt/sources.list.d/webupd8team-java.list
+RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EEA14886
 RUN apt-get update
 
 # Install Oracle Java 8
