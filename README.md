@@ -14,4 +14,4 @@ docker run -i -t strictlybusiness/java8 /bin/bash
 ```
 Then run `java -version` once shell has started.
 
-Available on the [Docker Registry](https://registry.hub.docker.com/u/strictlybusiness/oracle-java8/
+Available on the [Docker Registry](https://registry.hub.docker.com/u/strictlybusiness/oracle-java8/) as a trusted build
