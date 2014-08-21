@@ -1,8 +1,8 @@
-# Dockerfile for strictlybusiness/java8
+# Dockerfile for strictlybusiness/oracle-java8
 
-_Based on Ubuntu 14.04 (Trusty) and includes Oracle Java 8_
+_Based on Debian Wheezy and includes Oracle Java 8_
 
-### To use as a base image in your project's `Dockerfile`
+### To use as a base image in your project's `Dockerfile`:
 ```
 FROM strictlybusiness/oracle-java8
 ...
